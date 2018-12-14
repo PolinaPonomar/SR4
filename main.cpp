@@ -36,7 +36,7 @@ public:
 
     isotop (double a, double b, const std::string& c): A(a), Z(b), name(c){
         if (Z>A) {
-            std::cout << "ERROR!" << std::endl;
+            std::cout << "ERROR! Z > A!" << std::endl;
 
         }
     };
@@ -86,7 +86,7 @@ public:
         }
         M = M/N;
         if ((fm*100/M) >100){
-            std::cout << "ERROR!" << std::endl;
+            std::cout << "ERROR!!!" << std::endl;
         }
 
 
